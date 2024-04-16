@@ -17,3 +17,13 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  fonts:
+    - family: Mulish
+      fonts:
+        - asset: assets/fonts/mulish/Mulish-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/mulish/Mulish-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/mulish/Mulish-Light.ttf
+          weight: 300
