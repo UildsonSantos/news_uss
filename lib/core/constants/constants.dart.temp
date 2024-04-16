@@ -1,2 +1,4 @@
 const String newsAPIBaseURL = 'https://newsapi.org/v2';
-
+const String newsAPIKey = 'your_api_key';
+const String countryQuery = 'pt';
+const String categoryQuery = 'geral';
