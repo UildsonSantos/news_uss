@@ -1,4 +1,5 @@
 const String newsAPIBaseURL = 'https://newsapi.org/v2';
 const String newsAPIKey = 'your_api_key';
-const String countryQuery = 'pt';
-const String categoryQuery = 'geral';
+const String countryQuery = 'us';
+const String categoryQuery = 'general';
+const String kDefaultImage = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFrS3DfXBwOlJdjx8cnKEiSIxaPPnoMOgOvGbhNGz_7rY0DiQUcAcMkiCf_5kkpkH7E18&usqp=CAU";

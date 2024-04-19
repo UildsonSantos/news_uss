@@ -11,8 +11,6 @@ sealed class LocalArticleState extends Equatable {
   List<Object> get props => [articles!];
 }
 
-final class LocalArticleInitial extends LocalArticleState {}
-
 class LocalArticlesLoading extends LocalArticleState {
   const LocalArticlesLoading();
 }

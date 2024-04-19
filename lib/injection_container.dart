@@ -7,6 +7,7 @@ import 'package:news_uss/features/daily_news/domain/repository/article_repositor
 import 'package:news_uss/features/daily_news/domain/usecases/get_article.dart';
 import 'package:news_uss/features/daily_news/domain/usecases/get_saved_article.dart';
 import 'package:news_uss/features/daily_news/domain/usecases/remove_article.dart';
+import 'package:news_uss/features/daily_news/domain/usecases/save_article.dart';
 import 'package:news_uss/features/daily_news/presentation/bloc/article/local/local_article_bloc.dart';
 import 'package:news_uss/features/daily_news/presentation/bloc/article/remote/remote_article_bloc.dart';
 
@@ -28,6 +29,7 @@ Future<void> initializeDependencies() async {
   sl.registerSingleton<GetArticleUseCase>(GetArticleUseCase(sl()));
   sl.registerSingleton<GetSavedArticleUseCase>(GetSavedArticleUseCase(sl()));
   sl.registerSingleton<RemoveArticleUseCase>(RemoveArticleUseCase(sl()));
+  sl.registerSingleton<SaveArticleUseCase>(SaveArticleUseCase(sl()));
 
   // Blocs
   sl.registerFactory<RemoteArticlesBloc>(() => RemoteArticlesBloc(sl()));

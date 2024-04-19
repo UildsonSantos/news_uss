@@ -8,13 +8,16 @@ environment:
 
 dependencies:
   cached_network_image: ^3.3.1
+  cupertino_icons: ^1.0.8
   dio: ^5.4.3+1
   equatable: ^2.0.5
   floor: ^1.4.2
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.5
+  flutter_hooks: ^0.20.5
   get_it: ^7.7.0
+  ionicons: ^0.2.2
   retrofit: ^4.1.0
   sqflite: ^2.3.3
 
