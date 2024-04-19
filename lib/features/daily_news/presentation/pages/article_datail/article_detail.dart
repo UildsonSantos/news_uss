@@ -77,7 +77,7 @@ class ArticleDetailsView extends HookWidget {
                 width: 4,
               ),
               Text(
-                articleEntity!.publishedAt!,
+                articleEntity!.publishedAt ?? '',
                 style: const TextStyle(fontSize: 12),
               ),
             ],
